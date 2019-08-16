@@ -13,7 +13,7 @@
 		<?php Hybrid\View\display( 'partials', 'entry-byline' ); ?>
 	</header>
 
-	<div class="entry__summary">
+	<div class="entry__summary mt-sm">
 		<?php the_excerpt(); ?>
 	</div>
 </article>

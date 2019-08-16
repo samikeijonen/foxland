@@ -24,7 +24,7 @@
 	</header>
 
 	<?php if ( 0 === $iterator ) : ?>
-		<div class="entry__summary">
+		<div class="entry__summary mt-sm">
 			<?php the_excerpt(); ?>
 		</div>
 	<?php endif; ?>

@@ -7,6 +7,6 @@
 
 ?>
 
-<div class="entry__byline pb-2 fw-500">
+<div class="entry__byline fw-500">
 <?php Hybrid\Post\display_date(); ?>
 </div>
