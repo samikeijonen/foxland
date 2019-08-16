@@ -1,0 +1,10 @@
+{
+	"extends": [ "plugin:@wordpress/eslint-plugin/esnext" ],
+	"globals": {
+		"document": true,
+		"require": true,
+		"window": true,
+		"wp": true,
+		"lodash": true
+	}
+}

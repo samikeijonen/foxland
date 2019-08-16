@@ -13,6 +13,7 @@ sql-dump-*.sql
 
 # Wordpress content
 htdocs/wp-content/plugins/*
+!htdocs/wp-content/plugins/foxland-plugin
 !htdocs/wp-content/plugins/.gitkeep
 htdocs/wp-content/languages/*
 !htdocs/wp-content/languages/.gitkeep

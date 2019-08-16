@@ -1,0 +1,18 @@
+{
+  "from": {
+    "Name": "WC Nordic 2019",
+    "Description": "A WordPress starter theme.",
+    "Uri": "https://github.com/samikeijonen/uuups",
+    "Author": "Sami Keijonen",
+    "AuthorEmail": "sami.keijonen@foxnet.fi",
+    "AuthorUri": "https://foxland.fi"
+  },
+  "to": {
+    "Name": "Foxland",
+    "Description": "Theme for foxland.fi",
+    "Uri": "https://github.com/samikeijonen/uu",
+    "Author": "Sami Keijonen",
+    "AuthorEmail": "sami.keijonen@foxnet.fi",
+    "AuthorUri": "https://foxland.fi"
+  }
+}

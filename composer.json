@@ -1,25 +1,28 @@
 {
-  "name": "seravo/wordpress",
+  "name": "foxland/site",
   "type": "project",
   "license": "MIT",
-  "description": "Wordpress with good configs",
-  "homepage": "https://seravo.fi",
+  "description": "Foxland.fi site.",
+  "homepage": "https://foxland.fi",
   "authors": [
     {
-      "name": "Onni Hakala",
-      "email": "onni@seravo.fi",
-      "homepage": "https://github.com/onnimonni"
+      "name": "Sami Keijonen",
+      "email": "sami.keijonen@foxnet.fi",
+      "homepage": "https://foxnet.fi/"
     }
   ],
   "keywords": [
-    "wordpress", "composer", "wp"
+    "wordpress", "foxland", "wp"
   ],
   "config": {
     "preferred-install": "dist",
     "generate-salts": true
   },
   "autoload": {
-    "psr-0": {"Wordpress\\Installer": "scripts"}
+    "psr-0": {"Wordpress\\Installer": "scripts"},
+    "psr-4": {
+			"Foxland\\" : "htdocs/wp-content/themes/foxland/app/"
+		}
   },
   "scripts": {
     "post-install-cmd": [
@@ -36,16 +39,25 @@
     },
     {
       "type": "composer",
-      "url": "https://languages.koodimonni.fi"
+      "url": "https://wp-languages.github.io"
     }
   ],
   "require": {
-    "php": ">=5.3.2",
-    "johnpbloch/wordpress": "*",
-    "composer/installers": "v1.0.12",
-    "koodimonni-language/fi": "*", 
+    "php": ">=7.2",
+    "johnpbloch/wordpress-core-installer": "^1.0",
+    "johnpbloch/wordpress-core": "^5.2.2",
+    "composer/installers": "^1.0",
+    "koodimonni/composer-dropin-installer": "^1.0",
+    "vlucas/phpdotenv": "^2.4",
 
-    "seravo/seravo-plugin": "^1.3"
+    "koodimonni-language/fi": "*",
+
+    "seravo/seravo-plugin": "*",
+    "justintadlock/hybrid-core": "^5.1.0",
+
+    "wpackagist-theme/checathlon": "*",
+    "wpackagist-plugin/gutenberg": "^6.3.0",
+    "wpackagist-plugin/wordpress-importer": "*"
   },
   "extra": {
     "installer-paths": {
@@ -53,7 +65,12 @@
       "htdocs/wp-content/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
       "htdocs/wp-content/themes/{$name}": ["type:wordpress-theme"]
     },
-    "wordpress-install-dir": "htdocs/wordpress",
-    "wordpress-languages-dir": "htdocs/wp-content/languages"
+    "dropin-paths": {
+      "htdocs/wp-content/languages/": ["vendor:koodimonni-language"],
+      "htdocs/wp-content/languages/plugins/": ["vendor:koodimonni-plugin-language"],
+      "htdocs/wp-content/languages/themes/": ["vendor:koodimonni-theme-language"],
+      ".": ["type:seravo-wordpress-dropin"]
+    },
+    "wordpress-install-dir": "htdocs/wordpress"
   }
 }
