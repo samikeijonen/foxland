@@ -139,6 +139,6 @@ function register_post_types() {
 	];
 
 	register_post_type( 'theme', $theme_args );
-	register_post_type( 'docs', $doc_args );
+	register_post_type( 'doc', $doc_args );
 }
 add_action( 'init', __NAMESPACE__ . '\register_post_types', 0 );
