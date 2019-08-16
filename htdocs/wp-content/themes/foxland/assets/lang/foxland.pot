@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Foxland 1.0.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/foxland\n"
-"POT-Creation-Date: 2019-08-13 09:15:31+00:00\n"
+"POT-Creation-Date: 2019-08-16 09:29:41+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -33,43 +33,43 @@ msgstr ""
 msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
 msgstr ""
 
-#: app/functions-setup.php:64
+#: app/functions-setup.php:67
 msgid "Main"
 msgstr ""
 
-#: app/functions-setup.php:69
+#: app/functions-setup.php:72
 msgid "Dark"
 msgstr ""
 
-#: app/functions-setup.php:74
+#: app/functions-setup.php:77
 msgid "White"
 msgstr ""
 
-#: app/functions-setup.php:79
+#: app/functions-setup.php:82
 msgid "Light"
 msgstr ""
 
-#: app/functions-setup.php:84
+#: app/functions-setup.php:87
 msgid "Grey"
 msgstr ""
 
-#: app/functions-setup.php:102
+#: app/functions-setup.php:105
 msgid "Small"
 msgstr ""
 
-#: app/functions-setup.php:107
+#: app/functions-setup.php:110
 msgid "Medium"
 msgstr ""
 
-#: app/functions-setup.php:112
+#: app/functions-setup.php:115
 msgid "Large"
 msgstr ""
 
-#: app/functions-setup.php:117
+#: app/functions-setup.php:120
 msgid "Larger"
 msgstr ""
 
-#: app/functions-setup.php:230
+#: app/functions-setup.php:249
 msgid "No Post Header"
 msgstr ""
 
@@ -111,12 +111,7 @@ msgid "Tags:"
 msgstr ""
 
 #: views/footer/default.php:16
-msgid "Powered by crazy ideas and passion"
-msgstr ""
-
-#: views/footer/default.php:20
-#. translators: %1$s is theme name, and %2$s is link to theme site.
-msgid "Theme %1$s by %2$s"
+msgid "Power of the Foxland."
 msgstr ""
 
 #: views/header/default.php:23
@@ -171,22 +166,22 @@ msgstr ""
 msgid "https://foxland.fi"
 msgstr ""
 
-#: app/functions-setup.php:163
+#: app/functions-setup.php:182
 msgctxt "nav menu location"
 msgid "Primary"
 msgstr ""
 
-#: app/functions-setup.php:164
+#: app/functions-setup.php:183
 msgctxt "nav menu location"
 msgid "Social Links"
 msgstr ""
 
-#: app/functions-setup.php:209
+#: app/functions-setup.php:228
 msgctxt "sidebar"
 msgid "Primary"
 msgstr ""
 
 #: app/functions-template.php:26
 msgctxt "meta separator"
-msgid "&middot;"
+msgid "&#x2015;"
 msgstr ""
