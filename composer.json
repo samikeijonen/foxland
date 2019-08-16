@@ -55,7 +55,6 @@
     "seravo/seravo-plugin": "*",
     "justintadlock/hybrid-core": "^5.1.0",
 
-    "wpackagist-theme/checathlon": "*",
     "wpackagist-plugin/gutenberg": "^6.3.0",
     "wpackagist-plugin/wordpress-importer": "*"
   },

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8911cac26b2f6fee051cbf0e9f541396",
+    "content-hash": "5cbb3fee36b5433394221c622026949b",
     "packages": [
         {
             "name": "composer/installers",
@@ -765,26 +765,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wordpress-importer/"
-        },
-        {
-            "name": "wpackagist-theme/checathlon",
-            "version": "1.2.2",
-            "source": {
-                "type": "svn",
-                "url": "https://themes.svn.wordpress.org/checathlon/",
-                "reference": "1.2.2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/checathlon.1.2.2.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-theme",
-            "homepage": "https://wordpress.org/themes/checathlon/"
         }
     ],
     "packages-dev": [],
