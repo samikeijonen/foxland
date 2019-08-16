@@ -58,8 +58,7 @@
     "wpackagist-plugin/antispam-bee": "^2.9.1",
     "wpackagist-plugin/gutenberg": "^6.3.0",
     "wpackagist-plugin/imagify": "^1.9.6",
-    "wpackagist-plugin/wp-libre-form": "^1.4.3",
-    "wpackagist-plugin/wordpress-importer": "*"
+    "wpackagist-plugin/wp-libre-form": "^1.4.3"
   },
   "extra": {
     "installer-paths": {
