@@ -5,6 +5,9 @@
  * @package   Foxland
  */
 
+if ( 'post' !== get_post_type() ) :
+	return;
+endif;
 ?>
 
 <div class="entry__byline fw-500">
