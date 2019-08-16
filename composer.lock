@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e9c2f5beae13c5fbf9a1109b01dbf082",
+    "content-hash": "41c66d22bedea0d26818c2915a944634",
     "packages": [
         {
             "name": "composer/installers",
@@ -571,23 +571,22 @@
         },
         {
             "name": "seravo/seravo-plugin",
-            "version": "1.9.11",
+            "version": "dev-fix/loading-assets",
             "source": {
                 "type": "git",
-                "url": "https://github.com/Seravo/seravo-plugin.git",
-                "reference": "d8878cd9746f708257e18b959bf150d9c593beba"
+                "url": "https://github.com/samikeijonen/seravo-plugin.git",
+                "reference": "9ac4c19984bb4c241ec19410dfdb27c2b1954134"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seravo/seravo-plugin/zipball/d8878cd9746f708257e18b959bf150d9c593beba",
-                "reference": "d8878cd9746f708257e18b959bf150d9c593beba",
+                "url": "https://api.github.com/repos/samikeijonen/seravo-plugin/zipball/9ac4c19984bb4c241ec19410dfdb27c2b1954134",
+                "reference": "9ac4c19984bb4c241ec19410dfdb27c2b1954134",
                 "shasum": ""
             },
             "require": {
                 "composer/installers": "^1.0"
             },
             "type": "wordpress-muplugin",
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-3.0-or-later"
             ],
@@ -615,7 +614,10 @@
                 "wp",
                 "wp-palvelu"
             ],
-            "time": "2019-07-19T13:38:50+00:00"
+            "support": {
+                "source": "https://github.com/samikeijonen/seravo-plugin/tree/fix/loading-assets"
+            },
+            "time": "2019-08-16T13:42:42+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -787,26 +789,6 @@
             "homepage": "https://wordpress.org/plugins/imagify/"
         },
         {
-            "name": "wpackagist-plugin/wordpress-importer",
-            "version": "0.6.4",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/wordpress-importer/",
-                "reference": "tags/0.6.4"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-importer.0.6.4.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/wordpress-importer/"
-        },
-        {
             "name": "wpackagist-plugin/wp-libre-form",
             "version": "1.5.0.1",
             "source": {
@@ -830,7 +812,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "seravo/seravo-plugin": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
