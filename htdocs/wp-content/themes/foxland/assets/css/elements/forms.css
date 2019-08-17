@@ -4,7 +4,6 @@ textarea {
 	min-height: calc(var(--spacing-) * 13);
 }
 
-input,
 input[type="text"],
 input[type="email"],
 input[type="url"],
