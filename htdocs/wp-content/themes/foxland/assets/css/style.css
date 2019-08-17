@@ -92,7 +92,9 @@
 @import "components/header.css";
 @import "components/latest-posts.css";
 @import "components/media.css";
-@import "components/navigation.css";
+@import "components/menu/primary.css";
+@import "components/menu/social.css";
+@import "components/menu/toggle.css";
 @import "components/pagination.css";
 @import "components/posts-and-pages.css";
 @import "components/search.css";
