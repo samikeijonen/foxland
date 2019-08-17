@@ -13,7 +13,7 @@
 		<?php Hybrid\View\display( 'partials', 'entry-byline' ); ?>
 	</header>
 
-	<div class="entry__content mt-lg">
+	<div class="entry__content mt-md">
 		<?php
 		the_content();
 		Hybrid\View\display( 'nav/pagination', 'post' );
