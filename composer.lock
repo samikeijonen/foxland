@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "41c66d22bedea0d26818c2915a944634",
+    "content-hash": "0419f55044e969c66c24a5db524d14f5",
     "packages": [
         {
             "name": "composer/installers",
@@ -571,22 +571,23 @@
         },
         {
             "name": "seravo/seravo-plugin",
-            "version": "dev-fix/loading-assets",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/samikeijonen/seravo-plugin.git",
-                "reference": "032ff58a116815924b13e845f9b45d69bb847542"
+                "url": "https://github.com/Seravo/seravo-plugin.git",
+                "reference": "dea8d6012e208724425c57e93e706b19f48e2fe4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/samikeijonen/seravo-plugin/zipball/032ff58a116815924b13e845f9b45d69bb847542",
-                "reference": "032ff58a116815924b13e845f9b45d69bb847542",
+                "url": "https://api.github.com/repos/Seravo/seravo-plugin/zipball/dea8d6012e208724425c57e93e706b19f48e2fe4",
+                "reference": "dea8d6012e208724425c57e93e706b19f48e2fe4",
                 "shasum": ""
             },
             "require": {
                 "composer/installers": "^1.0"
             },
             "type": "wordpress-muplugin",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-3.0-or-later"
             ],
@@ -614,10 +615,7 @@
                 "wp",
                 "wp-palvelu"
             ],
-            "support": {
-                "source": "https://github.com/samikeijonen/seravo-plugin/tree/fix/loading-assets"
-            },
-            "time": "2019-08-17T09:46:00+00:00"
+            "time": "2019-08-19T14:24:10+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",

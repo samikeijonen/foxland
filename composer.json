@@ -40,10 +40,6 @@
     {
       "type": "composer",
       "url": "https://wp-languages.github.io"
-    },
-    {
-      "type": "vcs",
-      "url": "git@github.com:samikeijonen/seravo-plugin.git"
     }
   ],
   "require": {
@@ -56,7 +52,7 @@
 
     "koodimonni-language/fi": "*",
 
-    "seravo/seravo-plugin": "dev-fix/loading-assets",
+    "seravo/seravo-plugin": "dev-master",
     "justintadlock/hybrid-core": "^5.1.0",
 
     "wpackagist-plugin/antispam-bee": "^2.9.1",
