@@ -1,8 +1,9 @@
 {
-  "js/app.js": "js/app.js?id=8539a49fb0ad0c7a9c25926802e70806",
-  "js/customizeControls.js": "js/customizeControls.js?id=cf60b3ff87b8a1582006a015c6905084",
-  "js/customizePreview.js": "js/customizePreview.js?id=2763bb40b0501444f650badf17f45f03",
-  "css/editor.css": "css/editor.css?id=31c817dbca40ad886d6f8d40d188d1f7",
-  "js/editorScripts.js": "js/editorScripts.js?id=b02d2fc1dd6df9dc23449e37c2476070",
-  "css/style.css": "css/style.css?id=c7a3792a468dce04f98d43fa6f93e821"
+  "js/app.js": "js/app.js?id=b7ae1c95ab13e2cef84b83de9a1f3970",
+  "css/critical.css": "css/critical.css?id=8b5fc61f7c2f77eff6e140851959cc1e",
+  "js/customizeControls.js": "js/customizeControls.js?id=1ca0f422cd7cfd5a732625c7728c15df",
+  "js/customizePreview.js": "js/customizePreview.js?id=ce47b837e5de06511347768911344c3d",
+  "css/editor.css": "css/editor.css?id=5ef73aa68058366f51a46e87714b651d",
+  "js/editorScripts.js": "js/editorScripts.js?id=7b59a214d86de52ba1df1c38396afabe",
+  "css/style.css": "css/style.css?id=f23bd88172c6f628b6ce496482f6051f"
 }

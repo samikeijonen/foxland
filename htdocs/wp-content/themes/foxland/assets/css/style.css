@@ -9,10 +9,8 @@
 /*--------------------------------------------------------------
 # Settings - Global variables, config switches.
 --------------------------------------------------------------*/
+/* Mostly loaded in critical.css */
 @import "settings/media-queries.css";
-@import "settings/variables.css";
-@import "settings/fonts.css";
-@import "settings/colors.css";
 
 
 /*--------------------------------------------------------------
@@ -24,10 +22,7 @@
 /*--------------------------------------------------------------
 # Generic - Ground-zero styles (resets, box-sizing, etc.).
 --------------------------------------------------------------*/
-
-/* Include normalize.css via NPM. */
-@import "normalize.css";
-@import "generic/box-sizing.css";
+/* Loaded in critical.css */
 
 
 /*--------------------------------------------------------------
@@ -92,9 +87,7 @@
 @import "components/header.css";
 @import "components/latest-posts.css";
 @import "components/media.css";
-@import "components/menu/primary.css";
 @import "components/menu/social.css";
-@import "components/menu/toggle.css";
 @import "components/pagination.css";
 @import "components/posts-and-pages.css";
 @import "components/search.css";

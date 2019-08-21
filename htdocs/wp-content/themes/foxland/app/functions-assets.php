@@ -10,6 +10,21 @@ namespace Foxland;
 use Hybrid\App;
 
 /**
+ * Add critical styles to the header.
+ *
+ * @since 1.0.0
+ */
+add_action(
+	'wp_head',
+	function() {
+		$critical_styles = file_get_contents( get_parent_theme_file_path( 'dist/css/critical.css' ) );
+
+		echo '<style>' . $critical_styles . '</style>';
+	},
+	0
+);
+
+/**
  * Enqueue scripts/styles.
  *
  * @since  1.0.0
@@ -35,6 +50,28 @@ add_action(
 	},
 	10
 );
+
+/**
+ * Set the media property for the default theme styles to all.
+ *
+ * By default loading the styles blocks rendering. By setting the media type to
+ * print, and then changing the media type when loading completes, we ensure the
+ * main stylesheet loads asynchronously.
+ *
+ * @see https://www.filamentgroup.com/lab/load-css-simpler/
+ */
+function async_style_loading( $html, $handle ) {
+	if ( 'foxland-style' === $handle ) {
+		// Replace the media all with media print, and add an onload handler to switch it back.
+		$print_html = str_replace( "media='all'", "media='print' onload='this.media=\"all\"'", $html );
+
+		// Wrap the original link in a noscript tag for users who don't have js enabled.
+		$html = $print_html . '<noscript>' . $html . '</noscript>';
+	}
+
+	return $html;
+}
+add_filter( 'style_loader_tag', __NAMESPACE__ . '\async_style_loading', 10, 2 );
 
 /**
  * Enqueue editor scripts/styles.
