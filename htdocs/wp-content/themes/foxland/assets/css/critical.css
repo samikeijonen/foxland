@@ -36,25 +36,37 @@
 /*--------------------------------------------------------------
 # Elements - Unclassed HTML elements (type selectors).
 --------------------------------------------------------------*/
-/* Loaded in style.css */
+@import "elements/page.css";
+@import "elements/buttons.css";
+@import "elements/headings.css";
+@import "elements/links.css";
+@import "elements/paragraph.css";
+@import "elements/media.css";
 
 
 /*--------------------------------------------------------------
 # Objects - Undecorated design patterns.
 --------------------------------------------------------------*/
-/* Loaded in style.css */
+@import "objects/animations.css";
+@import "objects/flow-spacing.css";
+@import "objects/icons.css";
+@import "objects/layouts.css";
+@import "objects/max-widths.css";
+@import "objects/wrappers.css";
 
 
 /*--------------------------------------------------------------
 # Blocks - editor related styles.
 --------------------------------------------------------------*/
-/* Loaded in style.css */
+@import "blocks/core/button.css";
+@import "blocks/core/paragraph.css";
 
 
 /*--------------------------------------------------------------
 # Components - specific UI components.
 --------------------------------------------------------------*/
-/* Mostly loaded in style.css */
+@import "components/archive-header.css";
+@import "components/header.css";
 @import "components/menu/primary.css";
 @import "components/menu/toggle.css";
 
@@ -62,4 +74,7 @@
 /*--------------------------------------------------------------
 # Utilities - Helpers and overrides.
 --------------------------------------------------------------*/
-/* Loaded in style.css */
+/* Duplicate here since it's needed in the header. */
+@import "utilities/accessibility.css";
+@import "utilities/helpers.css";
+@import "utilities/text.css";
