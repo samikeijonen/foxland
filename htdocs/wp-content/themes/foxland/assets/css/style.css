@@ -28,17 +28,11 @@
 /*--------------------------------------------------------------
 # Elements - Unclassed HTML elements (type selectors).
 --------------------------------------------------------------*/
-@import "elements/page.css";
 @import "elements/blockquote.css";
-@import "elements/buttons.css";
 @import "elements/forms.css";
-@import "elements/headings.css";
 @import "elements/hr.css";
-@import "elements/links.css";
 @import "elements/lists.css";
-@import "elements/media.css";
 @import "elements/misc.css";
-@import "elements/paragraph.css";
 @import "elements/pre-code.css";
 @import "elements/tables.css";
 
@@ -46,18 +40,13 @@
 /*--------------------------------------------------------------
 # Objects - Undecorated design patterns.
 --------------------------------------------------------------*/
-@import "objects/animations.css";
-@import "objects/flow-spacing.css";
-@import "objects/icons.css";
-@import "objects/layouts.css";
-@import "objects/wrappers.css";
+/* Loaded in critical.css */
 
 
 /*--------------------------------------------------------------
 # Blocks - editor related styles.
 --------------------------------------------------------------*/
 @import "blocks/core/audio.css";
-@import "blocks/core/button.css";
 @import "blocks/core/columns.css";
 @import "blocks/core/cover.css";
 @import "blocks/core/embeds.css";
@@ -68,7 +57,6 @@
 @import "blocks/core/latest-comments.css";
 @import "blocks/core/latest-posts.css";
 @import "blocks/core/media-text.css";
-@import "blocks/core/paragraph.css";
 @import "blocks/core/pullquote.css";
 @import "blocks/core/quote.css";
 @import "blocks/core/search.css";
@@ -81,16 +69,15 @@
 # Components - specific UI components.
 --------------------------------------------------------------*/
 @import "components/app-footer.css";
-@import "components/archives.css";
 @import "components/comments.css";
+@import "components/entry.css";
 @import "components/galleries.css";
-@import "components/header.css";
 @import "components/latest-posts.css";
 @import "components/media.css";
 @import "components/menu/social.css";
 @import "components/pagination.css";
-@import "components/posts-and-pages.css";
 @import "components/search.css";
+@import "components/terms.css";
 @import "components/widgets.css";
 
 
