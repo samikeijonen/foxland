@@ -9,7 +9,7 @@
  * @package   Foxland
  */
 
-namespace Foxland;
+namespace Foxland\Providers;
 
 use Hybrid\Tools\ServiceProvider;
 use Foxland\Customize\Customize;
@@ -31,6 +31,9 @@ class Provider extends ServiceProvider {
 	 * @return void
 	 */
 	public function register() {
+		$this->app->singleton( Customize::class );
+		$this->app->singleton( LazyLoad::class );
+
 		// Bind the manifest for cache-busting.
 		$this->app->singleton(
 			'foxland/manifest',
@@ -41,5 +44,20 @@ class Provider extends ServiceProvider {
 				return file_exists( $file ) ? json_decode( file_get_contents( $file ), true ) : null;
 			}
 		);
+	}
+
+	/**
+	 * Callback executed after all the service providers have been registered.
+	 * This is particularly useful for single-instance container objects that
+	 * only need to be loaded once per page and need to be resolved early.
+	 *
+	 * @since  5.0.0
+	 * @access public
+	 * @return void
+	 */
+	public function boot() {
+		// Boot the customizer class instance.
+		$this->app->resolve( Customize::class )->boot();
+		$this->app->resolve( LazyLoad::class )->boot();
 	}
 }

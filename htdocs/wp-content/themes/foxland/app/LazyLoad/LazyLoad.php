@@ -19,7 +19,7 @@ use Hybrid\Contracts\Bootable;
  * @since  1.0.0
  * @access public
  */
-class Component implements Bootable {
+class LazyLoad implements Bootable {
 
 	/**
 	 * Adds actions on the appropriate action hooks.

@@ -22,7 +22,7 @@ use function Foxland\asset;
  * @since  1.0.0
  * @access public
  */
-class Component implements Bootable {
+class Customize implements Bootable {
 
 	/**
 	 * Adds actions on the appropriate customize action hooks.
