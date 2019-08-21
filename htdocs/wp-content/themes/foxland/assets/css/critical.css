@@ -1,0 +1,65 @@
+/**
+ * Critical stylesheet for the theme.
+ *
+ * Theme styles follow http://cssguidelin.es/ and are organized according to
+ * Inverted Triangle CSS (ITCSS) principles put forth by Harry Roberts. In
+ * short, each layer of CSS gets more specific as you move down this page.
+ */
+
+/*--------------------------------------------------------------
+# Settings - Global variables, config switches.
+--------------------------------------------------------------*/
+@import "settings/media-queries.css";
+@import "settings/colors.css";
+@import "settings/fonts.css";
+@import "settings/spacing.css";
+@import "settings/transitions.css";
+@import "settings/typography.css";
+@import "settings/widths.css";
+
+
+/*--------------------------------------------------------------
+# Tools - Default mixins and functions.
+--------------------------------------------------------------*/
+@import "tools/mixins.css";
+
+
+/*--------------------------------------------------------------
+# Generic - Ground-zero styles (resets, box-sizing, etc.).
+--------------------------------------------------------------*/
+
+/* Include normalize.css via NPM. */
+@import "normalize.css";
+@import "generic/box-sizing.css";
+
+
+/*--------------------------------------------------------------
+# Elements - Unclassed HTML elements (type selectors).
+--------------------------------------------------------------*/
+/* Loaded in style.css */
+
+
+/*--------------------------------------------------------------
+# Objects - Undecorated design patterns.
+--------------------------------------------------------------*/
+/* Loaded in style.css */
+
+
+/*--------------------------------------------------------------
+# Blocks - editor related styles.
+--------------------------------------------------------------*/
+/* Loaded in style.css */
+
+
+/*--------------------------------------------------------------
+# Components - specific UI components.
+--------------------------------------------------------------*/
+/* Mostly loaded in style.css */
+@import "components/menu/primary.css";
+@import "components/menu/toggle.css";
+
+
+/*--------------------------------------------------------------
+# Utilities - Helpers and overrides.
+--------------------------------------------------------------*/
+/* Loaded in style.css */

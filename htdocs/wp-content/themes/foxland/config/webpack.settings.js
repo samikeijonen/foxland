@@ -7,6 +7,7 @@ module.exports = {
 		editorScripts: './assets/js/editor.js',
 		customizeControls: './assets/js/customize-controls.js',
 		customizePreview: './assets/js/customize-preview.js',
+		critical: './assets/css/critical.css',
 		style: './assets/css/style.css',
 		editor: './assets/css/editor.css',
 	},

@@ -86,9 +86,19 @@
 	}
 }
 
+.menu__item {
+	position: relative;
+}
+
 .menu__sub-menu .menu__anchor {
 	color: var(--color-white);
 	text-transform: none;
+
+	&:hover,
+	&:focus,
+	&:active {
+		color: var(--color-white);
+	}
 }
 
 /* Show menu when there is no JS. */
