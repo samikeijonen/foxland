@@ -25,7 +25,9 @@ $foxland = new \Hybrid\Core\Application();
  * bootstrapping process.
  */
 
-$foxland->provider( \Foxland\Providers\AppServiceProvider::class );
+$foxland->provider( \Foxland\Provider::class );
+$foxland->provider( \Foxland\Customize\Provider::class );
+$foxland->provider( \Foxland\LazyLoad\Provider::class );
 
 /**
  * Perform bootstrap actions.
