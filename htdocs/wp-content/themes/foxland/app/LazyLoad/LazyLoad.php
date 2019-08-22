@@ -9,7 +9,6 @@
 
 namespace Foxland\LazyLoad;
 
-use WP_Customize_Manager;
 use Hybrid\Contracts\Bootable;
 
 /**

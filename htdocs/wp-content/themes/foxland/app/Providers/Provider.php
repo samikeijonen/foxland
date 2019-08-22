@@ -13,6 +13,7 @@ namespace Foxland\Providers;
 
 use Hybrid\Tools\ServiceProvider;
 use Foxland\Customize\Customize;
+use Foxland\LazyLoad\LazyLoad;
 
 /**
  * App service provider.
