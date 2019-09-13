@@ -45,7 +45,7 @@
   "require": {
     "php": ">=7.2",
     "johnpbloch/wordpress-core-installer": "^1.0",
-    "johnpbloch/wordpress-core": "^5.2.2",
+    "johnpbloch/wordpress-core": "^5.2.3",
     "composer/installers": "^1.0",
     "koodimonni/composer-dropin-installer": "^1.0",
     "vlucas/phpdotenv": "^2.4",
@@ -58,7 +58,8 @@
     "wpackagist-plugin/antispam-bee": "^2.9.1",
     "wpackagist-plugin/gutenberg": "^6.3.0",
     "wpackagist-plugin/imagify": "^1.9.6",
-    "wpackagist-plugin/wp-libre-form": "^1.4.3"
+    "wpackagist-plugin/wp-libre-form": "^1.4.3",
+    "wpackagist-plugin/native-lazyload": "^1.0.1"
   },
   "extra": {
     "installer-paths": {

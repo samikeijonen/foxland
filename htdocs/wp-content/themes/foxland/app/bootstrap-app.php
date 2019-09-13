@@ -27,7 +27,6 @@ $foxland = new \Hybrid\Core\Application();
 
 $foxland->provider( \Foxland\Provider::class );
 $foxland->provider( \Foxland\Customize\Provider::class );
-$foxland->provider( \Foxland\LazyLoad\Provider::class );
 
 /**
  * Perform bootstrap actions.

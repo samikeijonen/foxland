@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0419f55044e969c66c24a5db524d14f5",
+    "content-hash": "fb4cc92b1c9970880c1bc89c7fd064a1",
     "packages": [
         {
             "name": "composer/installers",
@@ -130,23 +130,23 @@
         },
         {
             "name": "johnpbloch/wordpress-core",
-            "version": "5.2.2",
+            "version": "5.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress-core.git",
-                "reference": "bbded8adf0ddd8cafdbd6e6605e0ee82d5c1dc8a"
+                "reference": "455a884ce96b042602d1eb04fdf2b8e003be0eef"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/bbded8adf0ddd8cafdbd6e6605e0ee82d5c1dc8a",
-                "reference": "bbded8adf0ddd8cafdbd6e6605e0ee82d5c1dc8a",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/455a884ce96b042602d1eb04fdf2b8e003be0eef",
+                "reference": "455a884ce96b042602d1eb04fdf2b8e003be0eef",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.2"
+                "php": ">=5.6.20"
             },
             "provide": {
-                "wordpress/core-implementation": "5.2.2"
+                "wordpress/core-implementation": "5.2.3"
             },
             "type": "wordpress-core",
             "notification-url": "https://packagist.org/downloads/",
@@ -166,7 +166,7 @@
                 "cms",
                 "wordpress"
             ],
-            "time": "2019-06-18T17:57:57+00:00"
+            "time": "2019-09-05T01:17:09+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -219,16 +219,16 @@
         },
         {
             "name": "justintadlock/hybrid-core",
-            "version": "5.1.0",
+            "version": "5.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/justintadlock/hybrid-core.git",
-                "reference": "018a796e58e4fcb6e3535e49929823c1c5a1a857"
+                "reference": "c72dfeac30f32c2183d6900e9e214da1fd003bee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/justintadlock/hybrid-core/zipball/018a796e58e4fcb6e3535e49929823c1c5a1a857",
-                "reference": "018a796e58e4fcb6e3535e49929823c1c5a1a857",
+                "url": "https://api.github.com/repos/justintadlock/hybrid-core/zipball/c72dfeac30f32c2183d6900e9e214da1fd003bee",
+                "reference": "c72dfeac30f32c2183d6900e9e214da1fd003bee",
                 "shasum": ""
             },
             "require": {
@@ -260,14 +260,14 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2019-07-16T14:16:09+00:00"
+            "time": "2019-09-03T17:24:16+00:00"
         },
         {
             "name": "koodimonni-language/fi",
-            "version": "5.2.2",
+            "version": "5.2.3",
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/translation/core/5.2.2/fi.zip",
+                "url": "https://downloads.wordpress.org/translation/core/5.2.3/fi.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -575,12 +575,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seravo/seravo-plugin.git",
-                "reference": "dea8d6012e208724425c57e93e706b19f48e2fe4"
+                "reference": "c6d592c02821af2dcb90afd5d3d856b433841be1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seravo/seravo-plugin/zipball/dea8d6012e208724425c57e93e706b19f48e2fe4",
-                "reference": "dea8d6012e208724425c57e93e706b19f48e2fe4",
+                "url": "https://api.github.com/repos/Seravo/seravo-plugin/zipball/c6d592c02821af2dcb90afd5d3d856b433841be1",
+                "reference": "c6d592c02821af2dcb90afd5d3d856b433841be1",
                 "shasum": ""
             },
             "require": {
@@ -615,7 +615,7 @@
                 "wp",
                 "wp-palvelu"
             ],
-            "time": "2019-08-19T14:24:10+00:00"
+            "time": "2019-08-31T08:24:11+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -748,15 +748,15 @@
         },
         {
             "name": "wpackagist-plugin/gutenberg",
-            "version": "6.3.0",
+            "version": "6.4.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/gutenberg/",
-                "reference": "tags/6.3.0"
+                "reference": "tags/6.4.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/gutenberg.6.3.0.zip",
+                "url": "https://downloads.wordpress.org/plugin/gutenberg.6.4.0.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -785,6 +785,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/imagify/"
+        },
+        {
+            "name": "wpackagist-plugin/native-lazyload",
+            "version": "1.0.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/native-lazyload/",
+                "reference": "tags/1.0.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/native-lazyload.1.0.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/native-lazyload/"
         },
         {
             "name": "wpackagist-plugin/wp-libre-form",
